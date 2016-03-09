@@ -1,4 +1,4 @@
 
-dist/
+/dist/Electron Cloud9-darwin-x64
 /node_modules
 /scripts
