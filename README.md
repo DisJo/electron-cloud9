@@ -4,7 +4,7 @@ Electron 可以让你使用纯 JavaScript 调用丰富的原生 APIs 来创造�
 
 这不意味着 Electron 是绑定了 GUI 库的 JavaScript。相反，Electron 使用 web 页面作为它的 GUI，所以你能把它看作成一个被 JavaScript 控制的，精简版的 Chromium 浏览器。
 
-## 用Electron打造一个nodejs客户端
+## 用Electron打造一个nodejs客户端IDE
 
 1. 假定你已经有了文本编辑器（或者IDE），并且安装了Node.js和npm。
 在终端拉取本例子：
@@ -59,7 +59,7 @@ app.on('activate', function () {
 3.`package.json`加入打包命令：
 ```
 "scripts": {
-    "build": "electron-packager . 'Electron Cloud9' --platform=darwin --arch=x64 --version=0.36.10 --icon=assets/icon.icns --overwrite --out=./dist --ignore=./dist" 
+    "build": "electron-packager . 'Electron Cloud9' --platform=darwin --arch=x64 --version=0.36.10 --icon=assets/icon.icns --overwrite --out=./dist --ignore=./dist"
   }
 ```
 
